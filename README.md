@@ -154,7 +154,7 @@ sys     0m0.007s
 
 ```
 
-`29s` in average with GraalVM vs `46s while running with GraalVM.
+`29s` in average with GraalVM vs `46s` while running with GraalVM.
 
 
 ## Flight Recorder Analysis 
