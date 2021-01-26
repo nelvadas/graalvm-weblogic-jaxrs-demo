@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "Testing with 20,000,000 (20 millions) iterations"
+echo "Testing with 200,000,000 (200 millions) iterations"
 
-time curl http://localhost:7001/GraalVMJAXRSDemo/rest/graal/benchmark/20000000
+time curl http://localhost:7003/GraalVMJAXRSDemo/rest/graal/benchmark/200000000
