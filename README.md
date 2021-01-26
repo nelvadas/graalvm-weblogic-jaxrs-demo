@@ -22,6 +22,11 @@ Deploy the WAR on Managed instance wls_server_01
 
 
 ## Run Benchmarks
+The benchmark app we are running is a simple JAX-RS Web Service provided by  
+[marthenlt](https://github.com/marthenlt/graalvm-weblogic-jaxrs-demo).
+The source code is pretty simple  and rely on Java Stream to compute and arithmetic expression.
+
+
 
 ### Start the Admin server 
 ```
@@ -149,7 +154,7 @@ sys     0m0.007s
 
 ```
 
-29sec in average with GraalVM vs 46s while running with GraalVM.
+`29s` in average with GraalVM vs `46s while running with GraalVM.
 
 
 ## Flight Recorder Analysis 
@@ -158,5 +163,5 @@ Open the JFR files and compare the CPU usage.
 With GraalVM the application with the bench load used around `0.1% CPU while the same workload
 was taking `3.6%` CPU with JRE8.
 
-![Domain overview ](./images/cpu_usage.png)
+![CPU Usage  ](./images/cpu_usage.png)
 
