@@ -160,7 +160,7 @@ sys     0m0.007s
 ## Flight Recorder Analysis 
 With Java Mission control or Visual VM or any tool of your choise,
 Open the JFR files and compare the CPU usage.
-With GraalVM the application with the bench load used around `0.1% CPU while the same workload
+With GraalVM the application with the bench load used around `0.1%` CPU while the same workload
 was taking `3.6%` CPU with JRE8.
 
 ![CPU Usage  ](./images/cpu_usage.png)
